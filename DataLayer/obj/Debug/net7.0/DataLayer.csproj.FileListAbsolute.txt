@@ -1,0 +1,14 @@
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/bin/Debug/net7.0/DataLayer.deps.json
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/bin/Debug/net7.0/DataLayer.runtimeconfig.json
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/bin/Debug/net7.0/DataLayer.dll
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/bin/Debug/net7.0/DataLayer.pdb
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.csproj.AssemblyReference.cache
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.AssemblyInfoInputs.cache
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.AssemblyInfo.cs
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.csproj.CoreCompileInputs.cache
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.dll
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/refint/DataLayer.dll
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.pdb
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/DataLayer.genruntimeconfig.cache
+/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/obj/Debug/net7.0/ref/DataLayer.dll

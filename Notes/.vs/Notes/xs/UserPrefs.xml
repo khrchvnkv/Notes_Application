@@ -1,4 +1,43 @@
-﻿<Properties StartupConfiguration="{C3073DF4-637E-439D-9716-A726D3D9A6CD}|https">
+﻿<Properties StartupConfiguration="{C3073DF4-637E-439D-9716-A726D3D9A6CD}|https" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.ItemProperties.Notes PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Notes FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Shared/Error.cshtml">
+    <Files>
+      <File FileName="Program.cs" Line="4" Column="34" />
+      <File FileName="Controllers/HomeController.cs" Line="23" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="4" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="../DataLayer/Entities/Page.cs" Line="2" Column="1" />
+      <File FileName="../DataLayer/Entities/Material.cs" Line="2" Column="1" />
+      <File FileName="../DataLayer/Entities/Directory.cs" Line="2" Column="1" />
+      <File FileName="../DataLayer/EFDBContext.cs" Line="10" Column="80" />
+      <File FileName="../DataLayer/EFDBContextFactory.cs" Line="12" Column="65" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="13" />
+      <File FileName="Views/Shared/Error.cshtml" Line="12" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notes" expanded="True">
+            <Node name="DataLayer" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="Notes" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
