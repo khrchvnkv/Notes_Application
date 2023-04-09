@@ -9,7 +9,7 @@ namespace DataLayer
         {
             var optionsBuilder = new DbContextOptionsBuilder<EFDBContext>();
             optionsBuilder.UseSqlServer(
-                "Server=(localdb)\\mssqllocaldb;Database=NotesDB;Trusted_Connection=True;MultipleActiveResultSets=true",
+                "Server=localhost,32772\\mssqllocaldb;Database=NotesDB;User Id=sa;Password=MS_SQL_DB_PASSWORD_1;TrustServerCertificate=True;MultipleActiveResultSets=true",
                 b => b.MigrationsAssembly("DataLayer"));
 
             return new EFDBContext(optionsBuilder.Options);

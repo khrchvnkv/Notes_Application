@@ -1,10 +1,17 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using DataLayer;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+var connection = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<EFDBContext>(op => op.UseSqlServer(connection,
+    b => b.MigrationsAssembly("DataLayer")));
+builder.Services.AddMvc();
 
 var app = builder.Build();
 
+#region Middleware
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -24,5 +31,15 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
 
+// Test DB
+using (IServiceScope scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    var context = services.GetRequiredService<EFDBContext>();
+    SampleData.InitData(context);
+}
+
+app.Run();
+#endregion

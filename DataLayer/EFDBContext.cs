@@ -7,7 +7,9 @@ namespace DataLayer
 		public DbSet<Entities.Directory> Directory { get; set; }
 		public DbSet<Entities.Material> Material { get; set; }
 
-		public EFDBContext(DbContextOptions<EFDBContext> options) : base(options) {  }
+		public EFDBContext(DbContextOptions<EFDBContext> options) : base(options)
+		{
+		}
 	}
 }
 

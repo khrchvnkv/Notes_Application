@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MdsdYBpYBtjkj8LEl52uR4C/r0JW10x4O0B/TO+HSYO9vsksSzyyjbh+4c9We+43j0oeJCLUybZWakMj/rQwoA==",
+  "dgSpecHash": "A8jA8JF1wS/DK6hwz/gp7ipVJ/6Ly+F6w5Psxb8rnix9Cg8v3ftclNggJuitsB6xWqPJ+AsqoPCiFx1ALz3lmQ==",
   "success": true,
   "projectFilePath": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/DataLayer.csproj",
   "expectedPackageFiles": [
-    "/Users/deniskharchevnikov/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
+    "/Users/deniskharchevnikov/.nuget/packages/azure.core/1.27.0/azure.core.1.27.0.nupkg.sha512",
     "/Users/deniskharchevnikov/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/deniskharchevnikov/.nuget/packages/azure.resourcemanager/1.3.2/azure.resourcemanager.1.3.2.nupkg.sha512",
+    "/Users/deniskharchevnikov/.nuget/packages/azure.resourcemanager.sql/1.2.0/azure.resourcemanager.sql.1.2.0.nupkg.sha512",
     "/Users/deniskharchevnikov/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/deniskharchevnikov/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/deniskharchevnikov/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
