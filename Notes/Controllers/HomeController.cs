@@ -1,29 +1,36 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessLayer;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Notes.Controllers;
-
-public class HomeController : Controller
+namespace Notes.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly DataManager _dataManager;
+        private readonly ILogger<HomeController> _logger;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        public HomeController(DataManager dataManager,
+            ILogger<HomeController> logger)
+        {
+            _dataManager = dataManager;
+            _logger = logger;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        public IActionResult Index()
+        {
+            List<DataLayer.Entities.Directory> directories = 
+                _dataManager.DirectoriesRepository.GetAllDirectories(true).ToList();
+            return View(directories);
+        }
 
-    public IActionResult Error()
-    {
-        return View();
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }
 

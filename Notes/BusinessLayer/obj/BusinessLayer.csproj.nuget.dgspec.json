@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/Notes.csproj": {}
+    "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/BusinessLayer/BusinessLayer.csproj": {}
   },
   "projects": {
     "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/DataLayer.csproj": {
@@ -136,81 +136,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/Notes.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/Notes.csproj",
-        "projectName": "Notes",
-        "projectPath": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/Notes.csproj",
-        "packagesPath": "/Users/deniskharchevnikov/.nuget/packages/",
-        "outputPath": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/deniskharchevnikov/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/DataLayer.csproj": {
-                "projectPath": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/DataLayer/DataLayer.csproj"
-              },
-              "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/BusinessLayer/BusinessLayer.csproj": {
-                "projectPath": "/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/BusinessLayer/BusinessLayer.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Azure.ResourceManager.Sql": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.4, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

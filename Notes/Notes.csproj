@@ -18,6 +18,7 @@
     <ProjectReference Include="..\DataLayer\DataLayer.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="BusinessLayer\BusinessLayer.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Azure.ResourceManager.Sql" Version="1.2.0" />

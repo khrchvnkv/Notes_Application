@@ -39,7 +39,7 @@ namespace DataLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Directory");
+                    b.ToTable("Directory", (string)null);
                 });
 
             modelBuilder.Entity("DataLayer.Entities.Material", b =>
@@ -65,7 +65,7 @@ namespace DataLayer.Migrations
 
                     b.HasIndex("DirectoryId");
 
-                    b.ToTable("Material");
+                    b.ToTable("Material", (string)null);
                 });
 
             modelBuilder.Entity("DataLayer.Entities.Material", b =>

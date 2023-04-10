@@ -1,22 +1,22 @@
-﻿<Properties NuGet.AddPackagesDialog.IncludePrerelease="True" StartupConfiguration="{C3073DF4-637E-439D-9716-A726D3D9A6CD}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../DataLayer/SampleData.cs">
+﻿<Properties StartupConfiguration="{C3073DF4-637E-439D-9716-A726D3D9A6CD}|https" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="41" Column="5" />
+      <File FileName="Program.cs" Line="15" Column="27" />
       <File FileName="Controllers/HomeController.cs" />
       <File FileName="Views/Home/Index.cshtml" />
       <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="../DataLayer/Entities/Page.cs" Line="5" Column="15" />
-      <File FileName="../DataLayer/Entities/Material.cs" Line="8" Column="29" />
-      <File FileName="../DataLayer/Entities/Directory.cs" Line="7" Column="34" />
-      <File FileName="../DataLayer/EFDBContext.cs" Line="8" Column="30" />
-      <File FileName="../DataLayer/EFDBContextFactory.cs" Line="12" Column="71" />
+      <File FileName="../DataLayer/Entities/Page.cs" />
+      <File FileName="../DataLayer/Entities/Material.cs" />
+      <File FileName="../DataLayer/Entities/Directory.cs" Line="7" Column="29" />
+      <File FileName="../DataLayer/EFDBContext.cs" />
+      <File FileName="../DataLayer/EFDBContextFactory.cs" />
       <File FileName="Views/_ViewImports.cshtml" />
       <File FileName="Views/Shared/Error.cshtml" />
-      <File FileName="../DataLayer/SampleData.cs" Line="22" Column="1" />
-      <File FileName="appsettings.json" Line="3" Column="49" />
+      <File FileName="../DataLayer/SampleData.cs" />
+      <File FileName="appsettings.json" />
       <File FileName="Properties/launchSettings.json" />
+      <File FileName="../DataLayer/Migrations/20230408225621_Init.cs" />
+      <File FileName="BusinessLayer/DataManager.cs" Line="10" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,9 +25,9 @@
             <Node name="DataLayer" expanded="True">
               <Node name="Entities" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="SampleData.cs" selected="True" />
             </Node>
             <Node name="Notes" expanded="True">
+              <Node name="BusinessLayer" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
@@ -36,15 +36,20 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/deniskharchevnikov/Documents/Projects/Notes_Application/Notes/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Notes PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

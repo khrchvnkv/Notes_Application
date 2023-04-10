@@ -1,4 +1,7 @@
-﻿using DataLayer;
+﻿using BusinessLayer;
+using BusinessLayer.Implementation;
+using BusinessLayer.Interfaces;
+using DataLayer;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 var connection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<EFDBContext>(op => op.UseSqlServer(connection,
     b => b.MigrationsAssembly("DataLayer")));
+builder.Services.AddTransient<IDirectoriesRepository, EFDirectoryRepository>();
+builder.Services.AddTransient<IMaterialsRepository, EFMaterialsRepository>();
+builder.Services.AddScoped<DataManager>();
+
 builder.Services.AddMvc();
 
 var app = builder.Build();
